@@ -1,7 +1,5 @@
 FROM adoptopenjdk:8-openj9-focal
 
-RUN echo $JAVA_HOME
-
 RUN 	apt-get update && \
 	apt-get -y install \
 		apt-transport-https \
