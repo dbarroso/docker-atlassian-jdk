@@ -11,3 +11,5 @@ RUN 	apt-get update && \
 	add-apt-repository "deb https://packages.atlassian.com/debian/atlassian-sdk-deb/ stable contrib" && \
 	apt-get update && \
 	apt-get -y install atlassian-plugin-sdk
+
+EXPOSE 2990
